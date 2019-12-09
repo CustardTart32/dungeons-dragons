@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="101.0" layoutY="82.0" text="Dungeons and Dragons" textFill="#e10606">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="205.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleStart" text="Start" />
+      <Label layoutX="239.0" layoutY="167.0" text="Arrow Keys: Movement" />
+      <Label layoutX="254.0" layoutY="192.0" text="E: Unlock Door" />
+      <Label layoutX="221.0" layoutY="215.0" text="Escape: Return to Start Screen" />
+      <Button fx:id="quitButton" layoutX="363.0" layoutY="289.0" mnemonicParsing="false" onAction="#handleQuit" text="Quit" />
+      <Label layoutX="236.0" layoutY="239.0" text="P: Show Goals/Inventory" />
+   </children>
+</Pane>
